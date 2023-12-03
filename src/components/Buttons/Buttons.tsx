@@ -4,7 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import styles from "./Buttons.module.scss";
 
-export function Buttons({ apiQuoteAuthor, apiQuoteText, fetchQuote }) {
+interface ButtomProps {
+  apiQuoteAuthor: string;
+  apiQuoteText: string;
+  fetchQuote: () => void;
+}
+
+export function Buttons({
+  apiQuoteAuthor,
+  apiQuoteText,
+  fetchQuote,
+}: ButtomProps) {
   const [isHovered, setIsHovered] = useState(false);
 
   const tweetQuote = () => {
