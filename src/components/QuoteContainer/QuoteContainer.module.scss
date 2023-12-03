@@ -1,0 +1,6 @@
+.quoteContainer {
+  @apply w-auto max-w-4xl rounded-lg bg-white/10 px-6 py-5 text-white max-md:mx-4 max-md:my-auto;
+}
+.quoteAuthor {
+  @apply mt-4 text-3xl font-normal italic;
+}

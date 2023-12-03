@@ -1,0 +1,6 @@
+.buttonsContainer {
+  @apply mt-4 flex place-content-between;
+}
+.btn {
+  @apply h-10 cursor-pointer rounded-lg border-none px-7 py-2 text-xl text-black outline-none;
+}

@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Montserrat:wght@300;400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply box-border;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  @apply m-0 flex min-h-screen items-center justify-center text-center font-bold text-white;
+}
+.text-left {
+  @apply text-center;
+}
